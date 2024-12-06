@@ -1,0 +1,116 @@
+/* Estilo para el enlace "Saltar al contenido principal" */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
+    left: 10px;
+}
+
+/* Estilo para la navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+    transition: color 0.3s;
+}
+
+/* Estilo de imágenes utilizando el modelo de caja */
+img {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para asegurar que las imágenes en contenedores específicos tengan tamaño fijo */
+.image-container img, .gallery img {
+    width: 500px;
+    height: 300px;
+}
+
+/* Estilo de cuadrícula para la galería de imágenes */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.gallery img:nth-child(odd) {
+    border-radius: 15px;
+}
+
+.gallery img:nth-child(even) {
+    border-radius: 5px;
+}
+
+/* Estilo para el contenido principal */
+main {
+    background-color: #f9f9f9;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo adicional */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #222;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Ejemplo de flexbox para navegación */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
