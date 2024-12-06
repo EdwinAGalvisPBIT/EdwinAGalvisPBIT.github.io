@@ -55,8 +55,8 @@ img {
 
 /* Estilo para asegurar que las imágenes en contenedores específicos tengan tamaño fijo */
 .image-container img, .gallery img {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 150px;
 }
 
 /* Estilo de cuadrícula para la galería de imágenes */
