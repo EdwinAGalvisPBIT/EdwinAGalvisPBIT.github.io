@@ -82,4 +82,26 @@ h1 {
 
 /* Estilo para la etiqueta p */
 p {
-    line-height:
+    line-height: 1.6;
+}
+
+/* Estilo para la clase grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para las imágenes dentro de la clase grid */
+.grid img {
+    width: 100%;
+}
+
+/* Estilo para la clase flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
