@@ -1,4 +1,4 @@
-/* Estilo para el enlace "Saltar al contenido principal" */
+/* Skip Link */
 .skip-link {
     position: absolute;
     top: -40px;
@@ -14,7 +14,7 @@
     left: 10px;
 }
 
-/* Estilo para el body */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -22,8 +22,73 @@ body {
     padding: 0;
 }
 
-/* Estilo para el header */
+/* Header */
 header {
-    background-color: #f0f0f0;
-    padding: 10px 0;
+    background-color: rgba(220, 220, 220, 0.9);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+/* Headings */
+.main-heading {
+    color: rgba(34, 139, 34, 0.8);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.subheading {
+    color: #4682B4;
+    text-align: left;
+    font-size: 1.8em;
+}
+
+/* Main Section */
+main {
+    background-color: #FFFACD;
+    padding: 20px;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
