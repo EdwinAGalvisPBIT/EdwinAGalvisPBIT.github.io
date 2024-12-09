@@ -31,6 +31,8 @@ header {
 /* Estilo para la navegación */
 nav {
     background-color: #333;
+    display: inline-block;
+    width: 80%;
 }
 
 nav ul {
@@ -39,7 +41,9 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    /* Comentar el estilo existente */
+    /* display: inline-block;
+       width: 100px; */
     margin-right: 10px;
 }
 
@@ -47,6 +51,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+}
+
+/* Estilo para la imagen en el elemento nav */
+nav img {
+    width: 10%;
 }
 
 /* Estilo para el main */
@@ -64,12 +73,6 @@ footer {
     padding: 10px;
 }
 
-/* Estilo para la etiqueta li */
-li {
-    display: inline-block;
-    width: 100px;
-}
-
 /* Estilo para la etiqueta h1 */
 h1 {
     text-align: center;
@@ -79,5 +82,4 @@ h1 {
 
 /* Estilo para la etiqueta p */
 p {
-    line-height: 1.6;
-}
+    line-height:
