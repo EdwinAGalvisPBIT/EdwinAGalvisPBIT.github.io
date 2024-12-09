@@ -1,0 +1,83 @@
+/* Estilo para el enlace "Saltar al contenido principal" */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 10px;
+    left: 10px;
+}
+
+/* Estilo para el body */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el header */
+header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+/* Estilo para la navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilo para el main */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para la etiqueta li */
+li {
+    display: inline-block;
+    width: 100px;
+}
+
+/* Estilo para la etiqueta h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #222;
+}
+
+/* Estilo para la etiqueta p */
+p {
+    line-height: 1.6;
+}
